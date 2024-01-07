@@ -119,7 +119,7 @@ while True:
                                  del(Client_list[ob].type_of_service)
                                  break
                              case 6:
-                                 del(Client_list[ob],monthly_budget)
+                                 del(Client_list[ob].monthly_budget)
                                  break
                              case 7:
                                  Client_list.remove(client_found)
